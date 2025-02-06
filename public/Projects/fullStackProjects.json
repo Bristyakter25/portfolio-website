@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co.com/35BLGF72/medical-camp.png",
+        "title": "CareSphere",
+        "description": "A comprehensive platform designed for managing medical camps, where organizers can add camps, manage registrations, and track participant data. Participants can join camps, view details, and provide feedback. The system includes real-time participant count updates and features secure authentication.",
+        "techStack": ["React", "Node.js", "MongoDB", "Express.js", "Firebase Authentication", "Tailwind CSS", "Stripe"],
+        "liveLink": "https://medical-camp-website.web.app/",
+        "githubClientSideRepo": "https://github.com/Bristyakter25/medical-camp-client",
+        
+        "challenges": "Implementing real-time participant count updates, managing multiple user roles (organizers and participants), and integrating Stripe for secure payments.",
+        "improvements": "Adding more detailed analytics for participants and organizers, improving the search and filter options for camps, and implementing a notification system for camp updates."
+      },
+      
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/T4ysTWW/blog-website-pic.png",
+      "title": "WebSophist",
+      "description": "A dynamic platform for sharing engaging articles, tutorials, and personal insights. This website features user-friendly navigation, categorized content, and responsive design to enhance the reading experience.",
+      "techStack": ["React", "Firebase", "MongoDB", "Tailwind CSS"],
+      "liveLink": "https://blog-website-8c111.web.app/",
+      "githubClintSideRepo": " https://github.com/Bristyakter25/blog-website-client",
+      
+      "challenges": "Ensuring smooth navigation and fast load times.",
+      "improvements": "Adding a commenting feature for user interaction."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/PYLmX0L/chill-gamer-pic.png",
+      "title": "Chill Gamer",
+      "description": "A comprehensive hub for gamers to explore in-depth reviews, ratings, and insights on the latest games. This platform delivers detailed analysis, gameplay tips, and community discussions to enhance the gaming experience.",
+      "techStack": ["React", "Node.js", "Express", "MongoDB"],
+      "liveLink": "https://chill-gamer-3b17d.web.app/",
+      "githubClintSideRepo": "https://github.com/Bristyakter25/chill-gamer",
+      
+      "challenges": "Designing an appealing UI for diverse gamers.",
+      "improvements": "Introducing multiplayer game review discussions."
+    }
+  ]
+  
