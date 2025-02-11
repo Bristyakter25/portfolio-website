@@ -6,7 +6,7 @@
       "description": "A one-stop destination for tech enthusiasts to explore the latest gadgets and accessories. Featuring detailed product reviews, comparisons, and exclusive deals, this platform helps users make informed decisions and stay updated with cutting-edge technology.",
       "techStack": ["React", "Firebase", "Tailwind CSS"],
       "liveLink": "https://glowing-blancmange-60fc37.netlify.app/",
-      "gitHubLink": "https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-Bristyakter25/tree/main/src",
+      "gitHubLink": "https://github.com/Bristyakter25/gadget-heaven",
       "challenges": "Designing mock search and filter functionalities to simulate e-commerce behavior.",
       "improvements": "Enabling a comparison tool to help users evaluate multiple gadgets side by side."
     },
@@ -17,7 +17,7 @@
       "description": "A compassionate platform connecting animals in need with loving homes. This website showcases profiles of adoptable pets, provides information on care, and features a streamlined process for adoption inquiries. Aiming to create lasting bonds between pets and families.",
       "techStack": ["React", "Node.js", "Firebase","Tailwind CSS"],
       "liveLink": "https://flourishing-raindrop-415cb5.netlify.app/",
-      "gitHubLink": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-Bristyakter25/tree/main",
+      "gitHubLink": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-Bristyakter25",
       "challenges": "Creating mock profiles with realistic details to mimic real-world data for a better user experience.",
       "improvements": "Adding advanced search filters like breed, age, and location to improve navigation."
     },

@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row">
           <Lottie animationData={aboutMeImg} />
-          <div className="ml-5">
+          <div className="ml-2 lg:ml-5">
             <h1 className="lg:text-5xl text-3xl font-bold my-7 text-indigo-600">About Me</h1>
             <h3 className="text-2xl font-semibold">
               Hi there! I’m Bristy Akter, a passionate web developer dedicated to crafting beautiful and functional digital experiences.

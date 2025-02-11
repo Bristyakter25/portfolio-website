@@ -7,7 +7,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="overflow-x-hidden w-full">
             <Navbar></Navbar>
            
             <Outlet></Outlet>

@@ -38,7 +38,7 @@ const FrontendProjectDetails = () => {
 
       <div className="mt-4">
         <a href={frontendProject.liveLink} className="btn bg-purple-400 text-white glass mr-2" target="_blank" rel="noopener noreferrer">Live Demo</a>
-        <a href={frontendProject.githubClintSideRepo} className="btn glass bg-indigo-500 text-white" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
+        <a href={frontendProject.gitHubLink} className="btn glass bg-indigo-500 text-white" target="_blank" rel="noopener noreferrer">GitHub (Client)</a>
         
       </div>
     </div>

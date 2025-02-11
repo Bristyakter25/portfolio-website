@@ -6,7 +6,7 @@
         "description": "A comprehensive platform designed for managing medical camps, where organizers can add camps, manage registrations, and track participant data. Participants can join camps, view details, and provide feedback. The system includes real-time participant count updates and features secure authentication.",
         "techStack": ["React", "Node.js", "MongoDB", "Express.js", "Firebase Authentication", "Tailwind CSS", "Stripe"],
         "liveLink": "https://medical-camp-website.web.app/",
-        "githubClientSideRepo": "https://github.com/Bristyakter25/medical-camp-client",
+        "githubClintSideRepo": "https://github.com/Bristyakter25/medical-camp-client",
         
         "challenges": "Implementing real-time participant count updates, managing multiple user roles (organizers and participants), and integrating Stripe for secure payments.",
         "improvements": "Adding more detailed analytics for participants and organizers, improving the search and filter options for camps, and implementing a notification system for camp updates."

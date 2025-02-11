@@ -19,7 +19,7 @@ const FrontEndProjects = () => {
         {projects.map((item, index) => (
           <div
             key={index}
-            className="card card-compact bg-base-100 shadow-xl hover:shadow-violet-400 transform transition duration-500 hover:scale-105"
+            className="card card-compact bg-base-100 shadow-xl hover:shadow-violet-400 transform transition duration-500 hover:scale-105 py-4 px-3"
           >
             <figure>
               <img
