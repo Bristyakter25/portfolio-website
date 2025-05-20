@@ -10,10 +10,10 @@ import Skills from "../skills/Skills";
 
 const Home = () => {
     return (
-        <div>
-           
-            <div className="lg:w-[1152px] w-[400px] mx-auto">
-            <Banner></Banner>
+        <div className="dark:bg-[#09122C]">
+           <Banner></Banner>
+            <div className="lg:w-[1240px] w-[400px] mx-auto">
+            
             </div>
             <AboutMe></AboutMe>
             <Skills></Skills>

@@ -20,7 +20,7 @@ const Banner = () => {
     ];
 
     return (
-        <div className="hero bg-[#F5EFFF] pt-16 pb-10 mt-20">
+        <div className="hero bg-[#F5EFFF] w-full dark:bg-[#09122C] pt-24 pb-10">
             <div className="lg:flex justify-between lg:flex-row-reverse">
                 {/* Animated Image */}
                 <motion.img
@@ -38,9 +38,9 @@ const Banner = () => {
                     transition={{ duration: 1 }}
                 >
                     <div className='my-5'>
-                        <p className="py-4 text-2xl font-semibold">This is me</p>
-                        <h1 className="text-5xl text-indigo-600 font-bold my-3">Bristy Akter</h1>
-                        <p className="lg:text-xl text-[16px] mb-5">
+                        <p className="py-4 text-2xl dark:text-white font-semibold">This is me</p>
+                        <h1 className="text-5xl dark:text-[#8CABFF] text-indigo-600 font-extrabold my-3">Bristy Akter</h1>
+                        <p className="lg:text-xl dark:text-white text-[16px] mb-5">
                             A passionate Front-End Developer specializing in creating intuitive, responsive, and visually stunning web experiences. Let’s build the web, one pixel at a time!
                         </p>
 

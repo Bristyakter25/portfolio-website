@@ -2,9 +2,9 @@ import Marquee from "react-fast-marquee";
 
 const Icons = () => {
   return (
-    <div className="bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] my-10 py-5">
+    <div className="bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] dark:to-gray-900 my-10 py-5">
         <div className="lg:max-w-6xl mx-auto">
-            <h1 className="lg:text-5xl text-3xl font-bold text-center mb-8 text-indigo-600">Tools</h1>
+            <h1 className="lg:text-5xl dark:text-[#8CABFF]  text-3xl font-bold text-center mb-8 text-indigo-600">Tools</h1>
       <Marquee pauseOnHover={true} className="space-x-10">
         <div className="w-32 bg-orange-400 flex justify-center mr-7 rounded-lg">
           <img

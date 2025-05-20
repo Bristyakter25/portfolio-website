@@ -75,7 +75,7 @@ const Navbar = () => {
     link.click();
 };
     return (
-        <div className="navbar text-white px-14 fixed top-0 left-0 w-full h-16 bg-purple-300 z-50 shadow-md">
+        <div className="navbar dark:bg-[#09122C] text-white px-14 fixed top-0 left-0 w-full h-16 bg-purple-300 z-50 shadow-md">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -100,7 +100,7 @@ const Navbar = () => {
       </ul>
     </div>
     <img className='w-10 h-10 rounded-full mr-3' src={logo} alt="" />
-    <a className=" lg:text-2xl text-indigo-600 font-bold text-xs">Bristy’s Tech Chronicles</a>
+    <a className=" lg:text-2xl dark:text-[#5F85DB] text-indigo-600 font-bold text-xs">Bristy’s Tech Chronicles</a>
   </div>
   <div className="navbar-center items-center lg:ml-7 hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
