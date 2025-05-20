@@ -38,37 +38,15 @@ Explore real-world projects, technical blogs, and a glimpse into my journey in s
 
 ---
 
-## 📁 Folder Structure
 
-```
-
-src/
-├── assets/
-├── components/
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   └── ProjectCard.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Projects.jsx
-│   ├── Skills.jsx
-│   ├── AboutMe.jsx
-│   ├── Educations.jsx
-│   └── Contact.jsx
-├── App.jsx
-└── main.jsx
-
-````
-
----
 
 ## 📦 Installation & Setup
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+git clone https://github.com/Bristyakter25/portfolio-website
+cd portfolio-website
 ````
 
 2. Install dependencies
@@ -99,9 +77,9 @@ Hi! I'm **Bristy**, a passionate CSE student and full-stack developer. I love bu
 
 ## 🤝 Let's Connect
 
-* 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile/)
-* 🐙 [GitHub](https://github.com/your-username)
-* 📧 Email: [yourname@example.com](mailto:yourname@example.com)
+* 🔗 [LinkedIn](www.linkedin.com/in/bristy-akter25)
+* 🐙 [GitHub](https://github.com/Bristyakter25)
+* 📧 Email: [sabihaakterbristy@gmail.com](mailto:sabihaakterbristy@gmail.com)
 
 ---
 
