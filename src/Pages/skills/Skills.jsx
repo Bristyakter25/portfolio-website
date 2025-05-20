@@ -11,7 +11,8 @@ const Skills = () => {
   ];
 
   const backendSkills = [
-    { name: "Node.js", level: "80%", color: "from-green-400 to-green-800" },
+    { name: "Node.js", level: "85%", color: "from-green-400 to-green-800" },
+    { name: "Express.js", level: "80%", color: "from-purple-400 to-purple-800" },
     { name: "MongoDB", level: "75%", color: "from-green-500 to-lime-500" },
   ];
 
