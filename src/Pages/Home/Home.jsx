@@ -11,9 +11,10 @@ import Skills from "../skills/Skills";
 const Home = () => {
     return (
         <div className="dark:bg-[#09122C]">
-            <Banner />
+             <Banner />
 
-            <div className="lg:w-[1240px] w-[400px] mx-auto">
+            <div className="w-full max-w-[1240px] mx-auto px-4">
+               
                 <ScrollInView>
                     <AboutMe />
                 </ScrollInView>
