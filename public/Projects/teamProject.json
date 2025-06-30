@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Auctoria",
+    "image": "https://i.ibb.co/hFfNdTgL/auctoria-home.png",
+   "description": "Auctoria is a real-time online auction platform built to provide users with a dynamic, secure, and engaging auction experience.The platform connects sellers and buyers, enables live bidding, and fosters trust through messaging, reporting, and real-time updates.\nIt bridges the gap between traditional auction systems and modern online commerce with cutting-edge technologies.",
+
+    "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Stripe", "Tailwind CSS", "Firebase"],
+    "liveLink": "https://bidapp-81c51.web.app/",
+    "githubLink": "https://github.com/Bristyakter25/auctoria-online-auction-platform",
+    "contribution": [
+      "Led the project team as team leader.",
+      "Developed secure login and registration system using JWT and Firebase Authentication.",
+      "Implemented product listing with image upload using Multer.",
+      "Built real-time bidding and countdown timer with synchronization.",
+      "Designed dashboards for user, seller, and admin with role-based access.",
+      "Integrated Stripe payment for auction winners.",
+      "Implemented wishlist, messaging, notifications, and reporting modules.",
+      "Handled responsive design and dark mode for seamless UX.",
+      "Implemented account lockout for security against brute-force attacks."
+    ],
+    "challenges": [
+      "Setting up JWT-based authentication with secure backend route protection.",
+      "Ensuring real-time synchronization of bids across multiple users.",
+      "Managing complex role-based UI rendering and data security.",
+      "Integrating Stripe checkout securely and smoothly.",
+      "Building scalable private messaging under auction contexts.",
+      "Optimizing backend queries for search and pagination to prevent slow loading.",
+      "Maintaining responsive design across all devices including dark mode.",
+      "Handling secure password reset flows and account lockout mechanisms."
+    ],
+    "role": "Team Leader"
+  }
+]
+

@@ -11,6 +11,7 @@ import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/contact/Contact";
 import FullstackProjectDetails from "../Pages/Projects/FullstackProjectDetails";
 import FrontendProjectDetails from "../Pages/Projects/FrontendProjectDetails";
+import TeamProjectDetails from "../Pages/Projects/TeamProjectDetails";
 
   export const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ import FrontendProjectDetails from "../Pages/Projects/FrontendProjectDetails";
         {
           path:'frontend-project-details/:id',
           element:<FrontendProjectDetails></FrontendProjectDetails>
+        },
+        {
+          path:'team-project-details/:id',
+          element:<TeamProjectDetails></TeamProjectDetails>
         },
         {
             path:'contact',

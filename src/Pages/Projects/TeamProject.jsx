@@ -2,27 +2,22 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const FrontEndProjects = () => {
+const TeamProject = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/Projects/frontEndProjects.json")
+    fetch("/Projects/teamProject.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
 
   return (
-    <div className="py-16 ">
-      {/* <motion.h2
-        className="text-3xl lg:text-5xl font-bold text-center mb-12 dark:text-indigo-400 text-indigo-600"
-        initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        Front-End Projects
-      </motion.h2> */}
+    <div className="py-10 ">
+       <h2 className="text-2xl lg:text-3xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-600 drop-shadow-lg mt-10 mb-16">
+   Team Project
+</h2>
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-6">
+      <div className="px-10 ">
         {projects.map((item, index) => (
           <motion.div
             key={index}
@@ -37,10 +32,10 @@ const FrontEndProjects = () => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-[300px] h-[250px] object-cover rounded-2xl"
+                className="w-full  rounded-2xl"
               />
-              <div className="absolute -top-2 bg-purple-700 text-white text-[16px] w-full p-4 text-center rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md">
-                Front-End Project
+              <div className="absolute -top-10  bg-purple-700 text-white text-[16px] w-full p-3 text-center rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-md">
+                Full Stack Project
               </div>
             </figure>
 
@@ -49,14 +44,14 @@ const FrontEndProjects = () => {
               <h2 className="text-2xl h-10 font-semibold text-gray-800 dark:text-white my-5 text-center">
                 {item.title}
               </h2>
-              <p className="text-gray-700 h-[180px] dark:text-gray-300 text-sm">
+              <p className="text-gray-700 my-4 dark:text-gray-300 text-sm">
                 {item.description}
               </p>
 
               {/* Details Button */}
               <div className="card-actions justify-end mt-4">
                 <Link
-                  to={`/frontend-project-details/${item.id}`}
+                  to={`/team-project-details/${item.id}`}
                   className="btn w-full glass bg-purple-700 hover:bg-indigo-500 text-white"
                 >
                   Details
@@ -70,4 +65,4 @@ const FrontEndProjects = () => {
   );
 };
 
-export default FrontEndProjects;
+export default TeamProject;

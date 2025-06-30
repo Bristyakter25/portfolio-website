@@ -1,30 +1,33 @@
 import Lottie from "lottie-react";
 import aboutMeImg from "../../assets/Animation - 1736022092183.json";
+
 const AboutMe = () => {
   return (
-    <div className="w-full min-h-screen pt-40 dark:bg-[#09122C]  mx-auto ">
+    <div className="w-full min-h-screen pt-16 dark:bg-[#09122C] mx-auto px-6 lg:px-20">
       <div className="hero">
-        <div className="hero-content  flex-col lg:flex-row">
-          <Lottie animationData={aboutMeImg} />
-          <div className="ml-2 lg:ml-5 ">
-            <h1 className="lg:text-5xl dark:text-[#8CABFF] text-3xl font-bold my-7 text-indigo-600">About Me</h1>
-            <h3 className="text-2xl dark:text-white font-semibold">
-              Hi there! I’m Bristy Akter, a passionate web developer dedicated to crafting beautiful and functional digital experiences.
+        <div className="hero-content flex flex-col lg:flex-row items-center gap-12">
+          <div className="w-full lg:w-[300px] max-w-md">
+            <Lottie animationData={aboutMeImg} loop={true} />
+          </div>
+          <div className="w-full lg:w-[600px] text-center lg:text-left">
+            <h1 className="text-3xl lg:text-4xl font-extrabold text-indigo-600 dark:text-[#8CABFF] mb-6">
+              About Me
+            </h1>
+            <h3 className="text-[22px] font-semibold dark:text-white mb-5">
+              Hi! I’m Bristy Akter — a passionate MERN Stack Developer & Next.js enthusiast.
             </h3>
-            <p className="dark:text-white text-[20px] my-3">
-              My journey in programming began during university when I built a weather forecast app for a presentation. That small project sparked my curiosity, leading me to dive deeper into web development.
+            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+              I build full-stack web applications from front-end to back-end, crafting <strong>responsive, performant, and scalable</strong> digital experiences.
+              From creating dynamic React interfaces to designing robust Node.js APIs and MongoDB databases, I’ve developed projects that solve real problems.
             </p>
-            <p className=" dark:text-white text-[20px] my-3">
-  I specialize in front-end development, blending creativity with logic to build 
-  <strong> responsive, user-friendly interfaces </strong> using 
-  <strong> React, React.js, Node.js, and MongoDB </strong>. Bringing designs to life excites me, and I love making the web more interactive.
-</p>
-
-            <p className=" dark:text-white text-[20px] my-3">
-              When I’m not coding, I enjoy brainstorming new project ideas and staying updated with the latest tech trends. My goal is to create impactful solutions that enhance user experiences and solve real-world problems.
+            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+              I also love exploring Next.js for building modern, SEO-friendly React applications with server-side rendering and static site generation.
             </p>
-            <p className="dark:text-white text-[20px] my-3">
-              Always eager to learn and collaborate, I’m open to exciting opportunities in web development. Let's connect and build something amazing together!
+            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+              When not coding, I’m constantly learning new technologies, brainstorming creative solutions, and staying updated with the latest trends in web development.
+            </p>
+            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+              I’m eager to collaborate and take on challenging projects that push boundaries. Let’s connect and build something impactful together!
             </p>
           </div>
         </div>
@@ -33,8 +36,4 @@ const AboutMe = () => {
   );
 };
 
-
-
 export default AboutMe;
-
-
