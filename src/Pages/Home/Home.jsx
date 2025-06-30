@@ -1,9 +1,9 @@
 import Banner from "../../Components/Banner/Banner";
+import ScrollInView from "../../Components/ScrollInView";
 import AboutMe from "../aboutMe/AboutMe";
 import Contact from "../contact/Contact";
 import Educations from "../Educations/Educations";
 import Projects from "../Projects/Projects";
-
 import Skills from "../skills/Skills";
 
 
@@ -11,16 +11,29 @@ import Skills from "../skills/Skills";
 const Home = () => {
     return (
         <div className="dark:bg-[#09122C]">
-           <Banner></Banner>
+            <Banner />
+
             <div className="lg:w-[1240px] w-[400px] mx-auto">
-            
+                <ScrollInView>
+                    <AboutMe />
+                </ScrollInView>
+
+                <ScrollInView delay={0.1}>
+                    <Skills />
+                </ScrollInView>
+
+                <ScrollInView delay={0.2}>
+                    <Educations />
+                </ScrollInView>
+
+                <ScrollInView delay={0.3}>
+                    <Projects />
+                </ScrollInView>
+
+                <ScrollInView delay={0.4}>
+                    <Contact />
+                </ScrollInView>
             </div>
-            <AboutMe></AboutMe>
-            <Skills></Skills>
-           <Educations></Educations>
-           <Projects></Projects>
-           <Contact></Contact>
-           
         </div>
     );
 };
