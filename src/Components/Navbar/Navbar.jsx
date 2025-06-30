@@ -1,6 +1,8 @@
 
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/developer.png'
+import DarkModeToggle from '../../DarkMode/DarkModeToggle';
+
 const Navbar = () => {
   const links = <>
  <div className="gap-x-3 lg:flex text-[14px]">
@@ -65,6 +67,7 @@ const Navbar = () => {
       >
         <li>Contact</li>
       </NavLink>
+      
     </div>
   </>
   const handleDownload = () => {
@@ -104,6 +107,7 @@ const Navbar = () => {
   <a className="font-bold text-base w-[250px] lg:text-[18px] bg-gradient-to-r from-purple-500 to-blue-600 text-transparent bg-clip-text tracking-wide">
     Bristy’s Tech Chronicles
   </a>
+
 </div>
 
   </div>
@@ -111,11 +115,24 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
       {links}
     </ul>
+
   </div>
-  <div className="navbar-end">
-  <button onClick={handleDownload} className="lg:btn-md rounded-xl btn-xs bg-purple-800 text-white hover:bg-blue-700">Download Resume</button>
-  </div>
+ <div className="navbar-end flex items-center gap-2">
+  {/* Dark Mode Toggle */}
+  <DarkModeToggle />
+
+  {/* Resume Button */}
+  <button
+    onClick={handleDownload}
+    className="lg:btn-md rounded-xl btn-xs bg-purple-800 text-white hover:bg-blue-700"
+  >
+    Download Resume
+  </button>
 </div>
+
+
+</div>
+
     );
 };
 

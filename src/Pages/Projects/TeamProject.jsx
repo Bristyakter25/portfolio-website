@@ -13,7 +13,7 @@ const TeamProject = () => {
 
   return (
     <div className="py-10 ">
-       <h2 className="text-2xl lg:text-3xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-600 drop-shadow-lg mt-10 mb-16">
+       <h2 className="lg:text-4xl text-2xl font-extrabold text-center mb-16 dark:text-[#8CABFF] text-indigo-700 drop-shadow-lg">
    Team Project
 </h2>
 

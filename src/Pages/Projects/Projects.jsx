@@ -7,9 +7,9 @@ import TeamProject from "./TeamProject";
 const Projects = () => {
   return (
 
-    <div>
+    <div className="dark:bg-[#09122C]">
       <h2> <motion.h2
-          className="lg:text-4xl text-2xl font-extrabold text-center mb-16 dark:text-[#8CABFF] text-indigo-700 drop-shadow-lg"
+          className="lg:text-4xl pt-24 text-2xl font-extrabold text-center mb-16 dark:text-[#8CABFF] text-indigo-700 drop-shadow-lg"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
