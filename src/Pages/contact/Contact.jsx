@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
    <div className='dark:bg-[#09122C]'>
-     <div className="lg:w-[1140px] w-[350px]  mx-auto mt-5 px-4 py-24 text-center dark:text-white">
+     <div className="lg:w-full w-[350px]  mx-auto mt-5 px-4 py-24 text-center dark:text-white">
       <motion.h2
-        className="text-5xl font-bold text-center my-5 text-indigo-600 dark:text-indigo-400"
+        className="lg:text-4xl text-3xl font-bold text-center my-5 text-indigo-600 dark:text-indigo-400"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -91,7 +91,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="w-full p-3 bg-purple-700 text-white rounded-lg hover:bg-indigo-700 transition dark:bg-purple-800 dark:hover:bg-indigo-600"
+            className="w-full glass p-3 bg-purple-700 text-white rounded-lg hover:bg-indigo-700 transition dark:bg-purple-800 dark:hover:bg-indigo-600"
           >
             Send Message
           </button>

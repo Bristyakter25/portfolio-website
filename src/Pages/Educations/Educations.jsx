@@ -23,7 +23,7 @@ const Educations = () => {
        <div className="dark:bg-[#09122C]">
          <div className="lg:w-[1140px] w-[350px]  mx-auto px-8 py-28 mt-10 ">
             <motion.h2
-                className="lg:text-5xl dark:text-[#8CABFF]  text-3xl font-bold text-center mb-12 text-indigo-600"
+                className="lg:text-4xl dark:text-[#8CABFF]  text-3xl font-bold text-center mb-12 text-indigo-600"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
@@ -42,7 +42,7 @@ const Educations = () => {
                     >
                         <FaGraduationCap className="text-5xl text-indigo-500 drop-shadow-xl" />
                         <div>
-                            <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">{item.degree}</h3>
+                            <h3 className="text-xl font-semibold text-black dark:text-white">{item.degree}</h3>
                             <p className="text-lg dark:text-white text-gray-600">
                                 <strong>Institution:</strong> {item.institution}
                             </p>
