@@ -4,10 +4,10 @@ import Lottie from "lottie-react";
 
 const Banner = () => {
   const handleDownload = () => {
-    const resumePath = "/Resume_of_Bristy_Akter.pdf";
+    const resumePath = "/Resume of Bristy-Akter.pdf";
     const link = document.createElement("a");
     link.href = resumePath;
-    link.download = "Bristy_Akter_Resume.pdf";
+    link.download = "Resume of Bristy-Akter";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -37,7 +37,7 @@ const Banner = () => {
   ];
 
   return (
-    <div className=" lg:w-full px-7 bg-[#F5EFFF] w-full dark:bg-[#09122C] pt-44 pb-10">
+    <div className=" lg:w-full px-12 bg-[#F5EFFF] w-full dark:bg-[#09122C] pt-44 pb-10">
       <div className="lg:flex justify-between">
         <div className="lg:w-[600px] w-[380px]">
           <motion.div

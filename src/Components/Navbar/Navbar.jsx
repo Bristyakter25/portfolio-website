@@ -71,7 +71,7 @@ const Navbar = () => {
     </div>
   </>
   const handleDownload = () => {
-    const resumePath = '/Resume of Bristy Akter.pdf'; 
+    const resumePath = '/Resume of Bristy-Akter.pdf'; 
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'Bristy_Akter_Resume.pdf'; 

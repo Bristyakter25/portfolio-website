@@ -19,10 +19,10 @@ const Skills = () => {
     "Next.js",
     "Redux",
     "Framer Motion",
-    "TypeScript",
+   "Axios",
     "Stripe Integration",
     "REST API",
-    "Multer",
+   
     "Context API",
   ];
 
