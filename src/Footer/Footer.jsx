@@ -14,21 +14,21 @@ const Footer = () => {
 
       {/* Services Section */}
       <nav>
-        <h6 className="footer-title text-lg font-semibold dark:text-white">Services</h6>
+        <h6 className="footer-title dark:text-white text-lg font-semibold dark:text-whit text-black">Services</h6>
         <ul className="space-y-1">
-          <li><Link to="/" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">Home</Link></li>
-          <li><Link to="/projects" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">Projects</Link></li>
-          <li><Link to="/skills" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">Skills</Link></li>
+          <li><Link to="/" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400 dark:text-white text-black">Home</Link></li>
+          <li><Link to="/projects" className="link link-hover hover:text-purple-600 dark:text-white dark:hover:text-purple-400 text-black">Projects</Link></li>
+          <li><Link to="/skills" className="link link-hover hover:text-purple-600 dark:text-white dark:hover:text-purple-400 text-black">Skills</Link></li>
         </ul>
       </nav>
 
       {/* More Info Section */}
       <nav>
-        <h6 className="footer-title text-lg font-semibold dark:text-white">More Information</h6>
+        <h6 className="footer-title text-lg font-semibold text-black dark:text-white">More Information</h6>
         <ul className="space-y-1">
-          <li><Link to="/aboutMe" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">About Me</Link></li>
-          <li><Link to="/educations" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">Educations</Link></li>
-          <li><Link to="/contact" className="link link-hover hover:text-purple-600 dark:hover:text-purple-400">Contact</Link></li>
+          <li><Link to="/aboutMe" className="link link-hover hover:text-purple-600 dark:text-white dark:hover:text-purple-400 text-black">About Me</Link></li>
+          <li><Link to="/educations" className="link link-hover hover:text-purple-600 dark:text-white dark:hover:text-purple-400 text-black">Educations</Link></li>
+          <li><Link to="/contact" className="link link-hover hover:text-purple-600 dark:text-white dark:hover:text-purple-400 text-black">Contact</Link></li>
         </ul>
       </nav>
     </footer>

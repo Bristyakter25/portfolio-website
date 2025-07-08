@@ -14,7 +14,7 @@ const Contact = () => {
         Contact With Me
       </motion.h2>
 
-      <p className="text-lg mb-8 dark:text-gray-300">
+      <p className="text-lg mb-8 text-black dark:text-gray-300">
         Feel free to reach out through any of the following methods:
       </p>
 
@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="flex items-center justify-center p-4 bg-white dark:bg-gray-800 shadow-md rounded-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300">
   <FaEnvelope className="text-4xl text-indigo-600 mr-4" />
   <div>
-    <h4 className="text-xl font-semibold dark:text-white">Email</h4>
+    <h4 className="text-xl font-semibold text-black dark:text-white">Email</h4>
     <p className="text-gray-700 dark:text-gray-300">sabihaakterbristy@gmail.com</p>
     <a
       href="mailto:sabihaakterbristy@gmail.com"
@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="flex items-center justify-center p-4 bg-white dark:bg-gray-800 shadow-md rounded-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300">
   <FaWhatsapp className="text-4xl text-green-600 mr-4" />
   <div>
-    <h4 className="text-xl font-semibold dark:text-white">WhatsApp</h4>
+    <h4 className="text-xl font-semibold text-black dark:text-white">WhatsApp</h4>
     <p className="text-gray-700 dark:text-gray-300">+880 1910628025</p>
     <a
       href="https://wa.me/01910628025"
@@ -56,8 +56,8 @@ const Contact = () => {
      <div className="mt-8 flex items-center justify-center p-4 bg-white dark:bg-gray-800 shadow-md rounded-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300">
   <FaPhone className="text-4xl text-blue-600 mr-4" />
   <div>
-    <h4 className="text-xl font-semibold dark:text-white">Phone</h4>
-    <p className="text-gray-700 dark:text-gray-300">+880 1910628025</p>
+    <h4 className="text-xl font-semibold text-black dark:text-white">Phone</h4>
+    <p className="text-gray-700  dark:text-gray-300">+880 1910628025</p>
     <a
       href="tel:+8801910628025"
       className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 mt-2 inline-block"
@@ -77,16 +77,16 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 dark:text-white"
+            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 bg-white dark:text-white text-black"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 dark:text-white"
+            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 bg-white dark:text-white text-black"
           />
           <textarea
             placeholder="Your Message"
-            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 dark:text-white"
+            className="w-full p-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600 dark:bg-gray-900 bg-white dark:text-white text-black"
             rows="5"
           ></textarea>
           <button

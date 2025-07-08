@@ -13,20 +13,20 @@ const AboutMe = () => {
             <h1 className="text-3xl lg:text-4xl font-extrabold text-indigo-600 dark:text-[#8CABFF] mb-6">
               About Me
             </h1>
-            <h3 className="text-[22px] font-semibold dark:text-white mb-5">
+            <h3 className="text-[22px] text-black font-semibold dark:text-white mb-5">
               Hi! I’m Bristy Akter — a passionate MERN Stack Developer & Next.js enthusiast.
             </h3>
-            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+            <p className="text-md dark:text-gray-300 text-black mb-5 leading-relaxed">
               I build full-stack web applications from front-end to back-end, crafting <strong>responsive, performant, and scalable</strong> digital experiences.
               From creating dynamic React interfaces to designing robust Node.js APIs and MongoDB databases, I’ve developed projects that solve real problems.
             </p>
-            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+            <p className="text-md text-black dark:text-gray-300 mb-5 leading-relaxed">
               I also love exploring Next.js for building modern, SEO-friendly React applications with server-side rendering and static site generation.
             </p>
-            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+            <p className="text-md text-black dark:text-gray-300 mb-5 leading-relaxed">
               When not coding, I’m constantly learning new technologies, brainstorming creative solutions, and staying updated with the latest trends in web development.
             </p>
-            <p className="text-md dark:text-gray-300  leading-relaxed">
+            <p className="text-md text-black dark:text-gray-300  leading-relaxed">
               I’m eager to collaborate and take on challenging projects that push boundaries. Let’s connect and build something impactful together!
             </p>
           </div>

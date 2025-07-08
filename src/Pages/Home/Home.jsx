@@ -10,7 +10,7 @@ import Skills from "../skills/Skills";
 
 const Home = () => {
     return (
-        <div className="dark:bg-[#09122C]">
+        <div className="dark:bg-[#09122C] bg-white">
              <Banner />
 
             <div className="w-full  lg:max-w-[1240px] mx-auto px-4">
