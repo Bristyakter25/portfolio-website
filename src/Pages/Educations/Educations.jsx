@@ -21,7 +21,7 @@ const Educations = () => {
 
     return (
        <div className="dark:bg-[#09122C]">
-         <div className="lg:w-[1140px] w-[350px]  mx-auto px-8 pt-24 my-16 ">
+         <div className="lg:w-[1140px] w-[350px]  mx-auto lg:px-8 pt-24 my-16 ">
             <motion.h2
                 className="lg:text-4xl dark:text-[#8CABFF]  text-3xl font-bold text-center mb-12 text-indigo-600"
                 initial={{ opacity: 0, y: -50 }}
