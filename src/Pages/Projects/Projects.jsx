@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import FrontEndProjects from "./FrontEndProjects";
 import FullStackProject from "./FullStackProject";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ const Projects = () => {
         >
           What I’ve Built
         </motion.h2></h2>
-      <div className="w-full bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] dark:to-gray-900 ">
+      <div className="w-full bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] rounded-2xl dark:to-gray-900 ">
       <div className="max-w-[1240px] w-full mx-auto px-4">
         {/* Animated Section Title */}
        

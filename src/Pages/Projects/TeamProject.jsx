@@ -17,7 +17,7 @@ const TeamProject = () => {
    Team Project
 </h2>
 
-      <div className="px-10 ">
+      <div className="lg:px-10 ">
         {projects.map((item, index) => (
           <motion.div
             key={index}

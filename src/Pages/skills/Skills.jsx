@@ -27,7 +27,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="px-6 py-20 bg-gradient-to-b min-h-screen from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] dark:to-[#0f0c29]">
+    <div className="dark:from-[#1c1242] my-16 dark:to-[#0f0c29]">
+      <div className="px-6 py-20 bg-gradient-to-b  from-[#f8f4fe] to-[#cebef8] ">
       <motion.h2
         className="text-3xl lg:text-4xl font-bold text-center mb-12 text-indigo-700 dark:text-[#8CABFF] drop-shadow-lg"
         initial={{ opacity: 0, y: -50 }}
@@ -109,6 +110,7 @@ const Skills = () => {
         </h4>
         <Icons />
       </motion.div>
+    </div>
     </div>
   );
 };

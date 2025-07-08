@@ -3,7 +3,7 @@ import aboutMeImg from "../../assets/Animation - 1736022092183.json";
 
 const AboutMe = () => {
   return (
-    <div className="w-full min-h-screen pt-16 dark:bg-[#09122C] mx-auto px-6 lg:px-20">
+    <div className="w-full my-10  py-16 dark:bg-[#09122C] mx-auto px-6 lg:px-20">
       <div className="hero">
         <div className="hero-content flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-[300px] max-w-md">
@@ -26,7 +26,7 @@ const AboutMe = () => {
             <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
               When not coding, I’m constantly learning new technologies, brainstorming creative solutions, and staying updated with the latest trends in web development.
             </p>
-            <p className="text-md dark:text-gray-300 mb-5 leading-relaxed">
+            <p className="text-md dark:text-gray-300  leading-relaxed">
               I’m eager to collaborate and take on challenging projects that push boundaries. Let’s connect and build something impactful together!
             </p>
           </div>
