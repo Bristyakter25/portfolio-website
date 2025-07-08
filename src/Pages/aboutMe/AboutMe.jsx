@@ -3,7 +3,7 @@ import aboutMeImg from "../../assets/Animation - 1736022092183.json";
 
 const AboutMe = () => {
   return (
-    <div className="w-full pb-20  py-16 dark:bg-[#09122C] mx-auto px-6 lg:px-20">
+    <div className="w-full pb-20 bg-white  py-16 dark:bg-[#09122C] mx-auto px-6 lg:px-20">
       <div className="hero">
         <div className="hero-content flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-[300px] max-w-md">

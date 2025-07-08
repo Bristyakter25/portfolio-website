@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className='dark:bg-[#09122C] px-2 sm:px-4'>
+    <div className='dark:bg-[#09122C] bg-white px-2 sm:px-4'>
       <div className="max-w-5xl mx-auto mt-10 sm:mt-16 py-16 sm:py-20 text-center dark:text-white">
         <motion.h2
           className="text-2xl sm:text-3xl lg:text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-4"

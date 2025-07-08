@@ -7,7 +7,7 @@ import TeamProject from "./TeamProject";
 const Projects = () => {
   return (
 
-    <div className="dark:bg-[#09122C] mt-5">
+    <div className="dark:bg-[#09122C] bg-white mt-5">
       <motion.h2
           className="lg:text-4xl  pt-12 md:pt-20 lg:pt-24 text-2xl font-extrabold text-center lg:mb-16 dark:text-[#8CABFF] text-indigo-700 drop-shadow-lg"
           initial={{ opacity: 0, y: -30 }}
