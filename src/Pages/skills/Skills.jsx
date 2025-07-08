@@ -27,8 +27,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="my-16">
-      <div className="px-6 py-20 bg-gradient-to-b dark:from-[#1c1242] dark:to-[#0f0c29]  from-[#f8f4fe] to-[#cebef8] ">
+    <div >
+      <div className="px-6  pt-24  bg-gradient-to-b dark:from-[#1c1242] dark:to-[#0f0c29]  from-[#f8f4fe] to-[#cebef8] ">
       <motion.h2
         className="text-3xl lg:text-4xl font-bold text-center mb-12 text-indigo-700 dark:text-[#8CABFF] drop-shadow-lg"
         initial={{ opacity: 0, y: -50 }}

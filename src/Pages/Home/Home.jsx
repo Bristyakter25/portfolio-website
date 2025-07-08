@@ -13,7 +13,7 @@ const Home = () => {
         <div className="dark:bg-[#09122C]">
              <Banner />
 
-            <div className="w-full  max-w-[1240px] mx-auto px-4">
+            <div className="w-full  lg:max-w-[1240px] mx-auto px-4">
                
                 <ScrollInView>
                     <AboutMe />
@@ -30,9 +30,9 @@ const Home = () => {
                     <Educations />
                 </ScrollInView>
 
-                <ScrollInView delay={0.3}>
+                
                     <Projects />
-                </ScrollInView>
+          
 
                 <ScrollInView delay={0.4}>
                     <Contact />
