@@ -78,7 +78,7 @@ const Navbar = () => {
     link.click();
 };
     return (
-        <div className="navbar dark:bg-[#09122C] text-white px-6 fixed top-0 left-0 w-full h-16 bg-purple-300 z-50 shadow-md">
+        <div className="navbar dark:bg-[#09122C] text-white px-1 lg:px-6 fixed top-0 left-0 w-full h-16 bg-purple-300 z-50 shadow-md">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -97,14 +97,14 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content gap-y-3 bg-purple-300 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content gap-y-3 bg-purple-300 rounded-box  mt-3 w-52 p-2 ">
         
         {links}
       </ul>
     </div>
-    <div className="flex items-center space-x-3">
-  <img className="w-10 h-10 rounded-full" src={logo} alt="Bristy Logo" />
-  <a className="font-bold text-base w-[250px] lg:text-[18px] bg-gradient-to-r from-purple-500 to-blue-600 text-transparent bg-clip-text tracking-wide">
+    <div className="flex items-center space-x-1 lg:space-x-3">
+  <img className="lg:w-10 w-7 h-7 lg:h-10 rounded-full" src={logo} alt="Bristy Logo" />
+  <a className="font-bold text-[14px] w-[250px] lg:text-[18px] bg-gradient-to-r from-purple-500 to-blue-600 text-transparent bg-clip-text tracking-wide">
     Bristy’s Tech Chronicles
   </a>
 

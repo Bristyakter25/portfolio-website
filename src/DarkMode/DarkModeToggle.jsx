@@ -19,7 +19,7 @@ const DarkModeToggle = () => {
   return (
     <button
       onClick={() => setIsDark(!isDark)}
-      className="btn btn-sm btn-outline "
+      className="btn btn-sm bg-transparent border-none "
     >
       {isDark ? "☀️" : "🌙"}
     </button>
