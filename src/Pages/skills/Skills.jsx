@@ -27,8 +27,8 @@ const Skills = () => {
   ];
 
   return (
-    <div >
-      <div className="px-6  pt-24  bg-gradient-to-b dark:from-[#1c1242] dark:to-[#0f0c29]  from-[#f8f4fe] to-[#cebef8] ">
+ 
+      <div className="px-6 pt-24  bg-gradient-to-b dark:from-[#1c1242] dark:to-[#0f0c29]  from-[#f8f4fe] to-[#cebef8] ">
       <motion.h2
         className="text-3xl lg:text-4xl font-bold text-center mb-12 text-indigo-700 dark:text-[#8CABFF] drop-shadow-lg"
         initial={{ opacity: 0, y: -50 }}
@@ -103,15 +103,15 @@ const Skills = () => {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="mt-16"
+        className="mt-16 pb-24"
       >
-        <h4 className="text-2xl font-bold text-center mb-4 text-indigo-700 dark:text-indigo-300">
+        <h4 className="text-2xl font-bold text-center pb-4 text-indigo-700 dark:text-indigo-300">
           Tools & Technologies I Use
         </h4>
         <Icons />
       </motion.div>
     </div>
-    </div>
+   
   );
 };
 

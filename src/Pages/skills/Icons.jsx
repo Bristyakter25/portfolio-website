@@ -50,7 +50,7 @@ const Icons = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] dark:to-gray-900 my-10 py-10">
+    <div className="bg-gradient-to-b from-[#f8f4fe] to-[#cebef8] dark:from-[#1c1242] dark:to-gray-900 mt-10 py-10 pb-10">
       <div className="lg:max-w-6xl mx-auto px-4">
         {/* <h1 className="lg:text-5xl text-3xl font-bold text-center mb-8 text-indigo-600 dark:text-[#8CABFF]">
           Tools & Technologies

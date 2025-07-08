@@ -18,7 +18,7 @@ const Educations = () => {
   ];
 
   return (
-    <div className="dark:bg-[#09122C] bg-[#F3F4F6] py-16 px-4 sm:px-6 lg:px-8">
+    <div className="dark:bg-[#09122C] pt-24 mt-20 bg-[#F3F4F6] pb-28 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
         <motion.h2
           className="text-3xl sm:text-4xl font-bold text-center text-indigo-600 dark:text-[#8CABFF] mb-12"
